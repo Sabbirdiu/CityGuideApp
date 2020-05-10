@@ -13,6 +13,7 @@ import {
   DropdownItem,
   NavbarText,
 } from 'reactstrap';
+import {Link} from 'react-router-dom'
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,26 +22,26 @@ const Header = () => {
   return (
     <div>
       <Navbar color='secondary' light expand='md'>
-        <NavbarBrand className='text-light' href='/'>
+        <Link className='text-light nav-link' to='/'>
           CityGuide
-        </NavbarBrand>
+        </Link>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className='mr-auto' navbar>
             <NavItem>
-              <NavLink className='ml-5 text-light' href='#'>
+              <Link className='ml-5 text-light nav-link' to='/'>
                 Home
-              </NavLink>
+              </Link>
             </NavItem>
             <NavItem>
-              <NavLink className='ml-5 text-light' href='#'>
+              <Link className='ml-5 text-light nav-link' to='news'>
                 News
-              </NavLink>
+              </Link>
             </NavItem>
             <NavItem>
-              <NavLink className='ml-5 text-light' href='#'>
+              <Link className='ml-5 text-light nav-link' to='contact'>
                 Contact Us
-              </NavLink>
+              </Link>
             </NavItem>
           </Nav>
           <form class='form-inline my-2 my-lg-0'>
