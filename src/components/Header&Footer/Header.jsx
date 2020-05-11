@@ -23,7 +23,7 @@ const Header = () => {
     <div>
       <Navbar color='secondary' light expand='md'>
         <Link className='text-light nav-link' to='/'>
-          CityGuide
+         TouristSpotGuide
         </Link>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>

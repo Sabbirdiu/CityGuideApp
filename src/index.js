@@ -3,15 +3,15 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter as Router} from 'react-router-dom'
+import {InfoProvider} from './Context'
 
 
 ReactDOM.render(
-  <React.StrictMode>
+  <InfoProvider>
     <Router>
     <App />
     </Router>
-    
-  </React.StrictMode>,
+  </InfoProvider>,
   document.getElementById('root')
 );
 

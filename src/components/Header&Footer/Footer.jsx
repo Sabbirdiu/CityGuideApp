@@ -73,7 +73,7 @@ function Footer() {
           </div>
           <div className='footer-bottom'>
             <p className='text-xs-center'>
-              &copy;{new Date().getFullYear()} CityGuide App - All Rights
+              &copy;{new Date().getFullYear()} TouristGuide App - All Rights
               Reserved
             </p>
           </div>
