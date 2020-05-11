@@ -1,4 +1,15 @@
 import React, { Component } from 'react';
+import {
+  Card,
+  CardImg,
+  CardText,
+  CardBody,
+  CardLink,
+  CardTitle,
+  CardSubtitle,
+  Row,
+  Col,
+} from 'reactstrap';
 import { Link } from 'react-router-dom';
 //context
 import { InfoConsumer } from '../Context';
@@ -8,19 +19,30 @@ export class Info extends Component {
     const {
       id,
       headerTitle,
-      headerSubtitle,
+      headerSubTitle,
       headerText,
       img,
     } = this.props.item;
     return (
       <InfoConsumer>
         {(data) => (
-          <div className='col-10 col-lg-4 mx-auto mb-5'>
-            <div className='card' style={{ width: '18rem' }}>
-              <img src={img} alt={headerTitle} className='card-img-top' />
+          <div
+            style={{ width: '30rem' }}
+            className='  card col-10 col-lg-5 mx-auto mb-5'
+          >
+            <h3 className='card-title text-uppercase'>{headerTitle}</h3>
+            <h5 className='card-title'>{headerSubTitle}</h5>
+            <div className=''>
+              <Row xs='2'>
+                <Col>
+                  <img src={img} alt={headerTitle} className='card-img-top' />
+                </Col>
+                <Col>
+                  <img src={img} alt={headerTitle} className='card-img-top' />
+                </Col>
+              </Row>
+
               <div className='card-body'>
-                <h3 className='card-title text-uppercase'>{headerTitle}</h3>
-                <h5 className='card-title'>{headerSubtitle}</h5>
                 <p className='card-text'>{headerText}</p>
                 <Link
                   className='btn btn-outline-primary text-uppercase'

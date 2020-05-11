@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Row, Col } from 'reactstrap';
 //add context
 import { InfoConsumer } from '../../Context';
 //improt child page
@@ -8,7 +9,7 @@ class Home extends Component {
   render() {
     return (
       <div className='container'>
-        <div className='row mt-5'>
+        <div className=' row mt-5'>
           <InfoConsumer>
             {(value) => {
               return value.info.map((items) => {
