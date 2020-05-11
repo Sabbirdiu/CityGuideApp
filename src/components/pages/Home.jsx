@@ -11,8 +11,8 @@ class Home extends Component {
         <div className='row mt-5'>
           <InfoConsumer>
             {(value) => {
-              return value.info.map((item) => {
-                return <Info key={item.id} item={item} />;
+              return value.info.map((items) => {
+                return <Info key={items.id} item={items} />;
               });
             }}
           </InfoConsumer>

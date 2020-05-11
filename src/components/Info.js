@@ -14,7 +14,7 @@ export class Info extends Component {
     } = this.props.item;
     return (
       <InfoConsumer>
-        {(value) => (
+        {(data) => (
           <div className='col-10 col-lg-4 mx-auto mb-5'>
             <div className='card' style={{ width: '18rem' }}>
               <img src={img} alt={headerTitle} className='card-img-top' />
