@@ -48,7 +48,7 @@ export class Info extends Component {
                 <p className='card-text'>{headerText}</p>
                 <Link
                   className='btn btn-outline-primary text-uppercase'
-                  to='/detail'
+                  to='/details'
                 >
                   More Info
                 </Link>
