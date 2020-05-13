@@ -18,7 +18,9 @@ import More from './Detail/More';
 import Review from './Detail/Review';
 
 import classnames from 'classnames';
-const Details = (props) => {
+
+import { InfoConsumer } from '../../Context';
+const Details = ({ about }) => {
   const [activeTab, setActiveTab] = useState('1');
 
   const toggle = (tab) => {
