@@ -13,7 +13,7 @@ class Home extends Component {
           <InfoConsumer>
             {(value) => {
               return value.info.map((items) => {
-                return <Info key={items.id} item={items} />;
+                return <Info key={items.id} content={items} />;
               });
             }}
           </InfoConsumer>

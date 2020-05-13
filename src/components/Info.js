@@ -14,6 +14,8 @@ import { Link } from 'react-router-dom';
 //context
 import { InfoConsumer } from '../Context';
 
+import PropTypes from 'prop-types';
+
 export class Info extends Component {
   render() {
     const {
@@ -22,7 +24,7 @@ export class Info extends Component {
       headerSubTitle,
       headerText,
       img,
-    } = this.props.item;
+    } = this.props.content;
     return (
       <InfoConsumer>
         {(data) => (
@@ -58,5 +60,8 @@ export class Info extends Component {
     );
   }
 }
+Info.propTypes = {
+  content: PropTypes.string.isRequired,
+};
 
 export default Info;
