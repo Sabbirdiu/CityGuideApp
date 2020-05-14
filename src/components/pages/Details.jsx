@@ -15,7 +15,7 @@ import {
 import About from './Detail/About';
 import Map from './Detail/Map';
 import More from './Detail/More';
-import Review from './Detail/Review';
+import Reviews from './Detail/Reviews';
 
 import classnames from 'classnames';
 
@@ -106,7 +106,7 @@ const Details = ({ about }) => {
           <TabPane tabId='3'>
             <Row>
               <Col sm='12'>
-                <Review />
+                <Reviews />
               </Col>
             </Row>
           </TabPane>
