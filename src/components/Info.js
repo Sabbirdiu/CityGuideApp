@@ -27,7 +27,7 @@ export class Info extends Component {
     } = this.props.content;
     return (
       <InfoConsumer>
-        {(data) => (
+        {(value) => (
           <div
             style={{ width: '30rem' }}
             className='  card col-10 col-lg-5 mx-auto mb-5'
@@ -47,6 +47,7 @@ export class Info extends Component {
               <div className='card-body'>
                 <p className='card-text'>{headerText}</p>
                 <Link
+                  onClick={() => value.handleDetail(id)}
                   className='btn btn-outline-primary text-uppercase'
                   to='/details'
                 >
