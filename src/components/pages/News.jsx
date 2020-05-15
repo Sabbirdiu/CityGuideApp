@@ -1,13 +1,18 @@
-import React, { Component } from 'react'
-
+import React, { Component } from 'react';
+import NewsCard from './NewsCard';
+import { InfoConsumer } from '../../Context';
 class News extends Component {
-    render() {
-        return (
-            <div>
-                <h1>News</h1>
-            </div>
-        )
-    }
+  render() {
+    return (
+      <InfoConsumer>
+        {(value) => {
+          return value.news.map((item) => {
+            return <NewsCard key={item.id} News={item} />;
+          });
+        }}
+      </InfoConsumer>
+    );
+  }
 }
 
-export default News
+export default News;
