@@ -1,6 +1,20 @@
 import React, { Component } from 'react';
 
 class Contact extends Component {
+  state = {
+    name: '',
+    email: '',
+    message: '',
+  };
+  formInput = (e) => {
+    this.setState({
+      [e.target.name]: e.target.value,
+    });
+  };
+  handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(this.state);
+  };
   render() {
     return (
       <section className='my-5 py-5'>
@@ -23,8 +37,44 @@ class Contact extends Component {
                 allowFullScreen
               />
             </div>
-            <div className=''>
-              <input style={{ width: '100%' }} type='text' value='submit' />
+            <div className='col-md-5 container'>
+              <div className=' card p-4'>
+                <h4>
+                  <strong>Contact Us</strong>
+                </h4>
+                <form action='' onSubmit={this.handleSubmit}>
+                  <input
+                    className='form-control my-2'
+                    type='text'
+                    placeholder='enter your name'
+                    name='name'
+                    value={this.state.name}
+                    onChange={this.formInput}
+                  />
+                  <input
+                    className='form-control my-2'
+                    type='email'
+                    placeholder='enter your email'
+                    name='email'
+                    value={this.state.email}
+                    onChange={this.formInput}
+                  />
+                  <textarea
+                    className='form-control my-2'
+                    type='textarea'
+                    placeholder='Message'
+                    name='message'
+                    value={this.state.message}
+                    onChange={this.formInput}
+                  />
+                  <button
+                    type='submit'
+                    className='my-2 btn btn-outline-primary'
+                  >
+                    Send
+                  </button>
+                </form>
+              </div>
             </div>
           </div>
         </div>
