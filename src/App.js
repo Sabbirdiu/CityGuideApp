@@ -9,8 +9,6 @@ import Contact from './components/pages/Contact';
 import Home from './components/pages/Home';
 import News from './components/pages/News';
 import Details from './components/pages/Details';
-import ErrorFound from './components/pages/ErrorFound';
-// import NotFound from './components/pages/NotFound'
 
 function App() {
   return (
@@ -21,7 +19,6 @@ function App() {
         <Route exact path='/news' component={News} />
         <Route exact path='/contact' component={Contact} />
         <Route exact path='/details' component={Details} />
-        <Route exact path='/errorFound' component={ErrorFound} />
       </Switch>
       <Footer />
     </div>
