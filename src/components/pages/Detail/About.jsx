@@ -15,7 +15,7 @@ class About extends Component {
             >
               <h2 className='mb-3'>{title}</h2>
               <p>{description}</p>
-              <img src={img} alt={title} className='img-thumbnail img-fluid' />
+              <img src={img} style={{width:'50%',height:'50%'}} alt={title} className='img-thumbnail img-fluid' />
             </div>
           );
         }}

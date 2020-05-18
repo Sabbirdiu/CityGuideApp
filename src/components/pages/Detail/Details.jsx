@@ -12,14 +12,14 @@ import {
   Row,
   Col,
 } from 'reactstrap';
-import About from './Detail/About';
-import Map from './Detail/Map';
-import More from './Detail/More';
-import Reviews from './Detail/Reviews';
+import About from './About';
+import Map from './Map';
+import More from './More';
+import Reviews from './Reviews';
 
 import classnames from 'classnames';
 
-import { InfoConsumer } from '../../Context';
+import { InfoConsumer } from '../../../Context';
 const Details = ({ about }) => {
   const [activeTab, setActiveTab] = useState('1');
 
@@ -29,8 +29,8 @@ const Details = ({ about }) => {
   return (
     <div>
       {' '}
-      <div>
-        <Nav tabs>
+      <div className='container' >
+        <Nav tabs className='mt-2 '>
           <NavItem>
             <NavLink
               className={classnames({ active: activeTab === '1' })}

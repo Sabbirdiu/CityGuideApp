@@ -6,9 +6,9 @@ import Footer from './components/Header&Footer/Footer';
 import { Switch, Route } from 'react-router-dom';
 //import pages
 import Contact from './components/pages/Contact';
-import Home from './components/pages/Home';
+import Home from './components/Browser/Home';
 import News from './components/pages/News';
-import Details from './components/pages/Details';
+import Details from './components/pages/Detail/Details';
 
 function App() {
   return (

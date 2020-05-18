@@ -12,7 +12,7 @@ import {
 } from 'reactstrap';
 import { Link } from 'react-router-dom';
 //context
-import { InfoConsumer } from '../Context';
+import { InfoConsumer } from '../../Context';
 
 import PropTypes from 'prop-types';
 
@@ -24,6 +24,7 @@ export class Info extends Component {
       headerSubTitle,
       headerText,
       img,
+      img1,
     } = this.props.content;
     return (
       <InfoConsumer>
@@ -37,10 +38,10 @@ export class Info extends Component {
             <div className=''>
               <Row xs='2'>
                 <Col>
-                  <img src={img} alt={headerTitle} className='card-img-top' />
+                  <img style={{width:'100%',height:'100%'}} src={img} alt={headerTitle} className='card-img-top' />
                 </Col>
                 <Col>
-                  <img src={img} alt={headerTitle} className='card-img-top' />
+                  <img style={{width:'100%',height:'100%'}} src={img1} alt={headerTitle} className='card-img-top' />
                 </Col>
               </Row>
 

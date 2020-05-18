@@ -3,7 +3,7 @@ import { Row, Col } from 'reactstrap';
 //add context
 import { InfoConsumer } from '../../Context';
 //improt child page
-import Info from '../Info';
+import Info from './Info';
 
 class Home extends Component {
   render() {
