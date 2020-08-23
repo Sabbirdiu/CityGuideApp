@@ -22,7 +22,7 @@ const Header = () => {
   return (
     <div>
       <Navbar color='secondary' light expand='md'>
-        <Link className='text-light nav-link' to='spot'>
+        <Link className='text-light nav-link' to='TouristSpotGuideApp'>
           TouristSpotGuide
         </Link>
         <NavbarToggler onClick={toggle} />
