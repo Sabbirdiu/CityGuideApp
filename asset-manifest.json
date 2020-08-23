@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/TouristSpotGuide/static/css/main.b3b290ac.chunk.css",
-    "main.js": "/TouristSpotGuide/static/js/main.5f945672.chunk.js",
-    "main.js.map": "/TouristSpotGuide/static/js/main.5f945672.chunk.js.map",
-    "runtime-main.js": "/TouristSpotGuide/static/js/runtime-main.91a4771d.js",
-    "runtime-main.js.map": "/TouristSpotGuide/static/js/runtime-main.91a4771d.js.map",
-    "static/css/2.69121389.chunk.css": "/TouristSpotGuide/static/css/2.69121389.chunk.css",
-    "static/js/2.1aa30998.chunk.js": "/TouristSpotGuide/static/js/2.1aa30998.chunk.js",
-    "static/js/2.1aa30998.chunk.js.map": "/TouristSpotGuide/static/js/2.1aa30998.chunk.js.map",
-    "index.html": "/TouristSpotGuide/index.html",
-    "precache-manifest.459e42eb37c4cde3cc4a65f622ce413d.js": "/TouristSpotGuide/precache-manifest.459e42eb37c4cde3cc4a65f622ce413d.js",
-    "service-worker.js": "/TouristSpotGuide/service-worker.js",
-    "static/css/2.69121389.chunk.css.map": "/TouristSpotGuide/static/css/2.69121389.chunk.css.map",
-    "static/css/main.b3b290ac.chunk.css.map": "/TouristSpotGuide/static/css/main.b3b290ac.chunk.css.map",
-    "static/js/2.1aa30998.chunk.js.LICENSE.txt": "/TouristSpotGuide/static/js/2.1aa30998.chunk.js.LICENSE.txt"
+    "main.css": "/spot/static/css/main.b3b290ac.chunk.css",
+    "main.js": "/spot/static/js/main.30b431e1.chunk.js",
+    "main.js.map": "/spot/static/js/main.30b431e1.chunk.js.map",
+    "runtime-main.js": "/spot/static/js/runtime-main.25170284.js",
+    "runtime-main.js.map": "/spot/static/js/runtime-main.25170284.js.map",
+    "static/css/2.69121389.chunk.css": "/spot/static/css/2.69121389.chunk.css",
+    "static/js/2.5d0b8f2c.chunk.js": "/spot/static/js/2.5d0b8f2c.chunk.js",
+    "static/js/2.5d0b8f2c.chunk.js.map": "/spot/static/js/2.5d0b8f2c.chunk.js.map",
+    "index.html": "/spot/index.html",
+    "precache-manifest.13e3c5ae8746a49d53eb40f0f968d1b7.js": "/spot/precache-manifest.13e3c5ae8746a49d53eb40f0f968d1b7.js",
+    "service-worker.js": "/spot/service-worker.js",
+    "static/css/2.69121389.chunk.css.map": "/spot/static/css/2.69121389.chunk.css.map",
+    "static/css/main.b3b290ac.chunk.css.map": "/spot/static/css/main.b3b290ac.chunk.css.map",
+    "static/js/2.5d0b8f2c.chunk.js.LICENSE.txt": "/spot/static/js/2.5d0b8f2c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.91a4771d.js",
+    "static/js/runtime-main.25170284.js",
     "static/css/2.69121389.chunk.css",
-    "static/js/2.1aa30998.chunk.js",
+    "static/js/2.5d0b8f2c.chunk.js",
     "static/css/main.b3b290ac.chunk.css",
-    "static/js/main.5f945672.chunk.js"
+    "static/js/main.30b431e1.chunk.js"
   ]
 }
