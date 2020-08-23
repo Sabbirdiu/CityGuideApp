@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/TouristSpotGuideApp/precache-manifest.87db9d5a4b680116cac5e5130f1d4964.js"
+  "/TouristSpotGuideApp/precache-manifest.cc169e61233cf7ac82be7750c52e4c76.js"
 );
 
 self.addEventListener('message', (event) => {

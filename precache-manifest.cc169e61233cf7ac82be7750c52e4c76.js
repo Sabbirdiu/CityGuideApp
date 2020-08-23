@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b3137f1a6373b0625919d9a9c3b28d52",
+    "revision": "96a05aedf4b075e439af3edfee2e6943",
     "url": "/TouristSpotGuideApp/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/TouristSpotGuideApp/static/css/2.69121389.chunk.css"
   },
   {
-    "revision": "7d6582a1b0a750b692e2",
+    "revision": "8ed541460fc9fa295ceb",
     "url": "/TouristSpotGuideApp/static/css/main.b3b290ac.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/TouristSpotGuideApp/static/js/2.e5ca82f6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7d6582a1b0a750b692e2",
-    "url": "/TouristSpotGuideApp/static/js/main.30b431e1.chunk.js"
+    "revision": "8ed541460fc9fa295ceb",
+    "url": "/TouristSpotGuideApp/static/js/main.7a34f1ef.chunk.js"
   },
   {
     "revision": "c384997cf8a5d60daa66",

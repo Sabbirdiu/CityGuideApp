@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/TouristSpotGuideApp/static/css/main.b3b290ac.chunk.css",
-    "main.js": "/TouristSpotGuideApp/static/js/main.30b431e1.chunk.js",
-    "main.js.map": "/TouristSpotGuideApp/static/js/main.30b431e1.chunk.js.map",
+    "main.js": "/TouristSpotGuideApp/static/js/main.7a34f1ef.chunk.js",
+    "main.js.map": "/TouristSpotGuideApp/static/js/main.7a34f1ef.chunk.js.map",
     "runtime-main.js": "/TouristSpotGuideApp/static/js/runtime-main.8dd7e447.js",
     "runtime-main.js.map": "/TouristSpotGuideApp/static/js/runtime-main.8dd7e447.js.map",
     "static/css/2.69121389.chunk.css": "/TouristSpotGuideApp/static/css/2.69121389.chunk.css",
     "static/js/2.e5ca82f6.chunk.js": "/TouristSpotGuideApp/static/js/2.e5ca82f6.chunk.js",
     "static/js/2.e5ca82f6.chunk.js.map": "/TouristSpotGuideApp/static/js/2.e5ca82f6.chunk.js.map",
     "index.html": "/TouristSpotGuideApp/index.html",
-    "precache-manifest.87db9d5a4b680116cac5e5130f1d4964.js": "/TouristSpotGuideApp/precache-manifest.87db9d5a4b680116cac5e5130f1d4964.js",
+    "precache-manifest.cc169e61233cf7ac82be7750c52e4c76.js": "/TouristSpotGuideApp/precache-manifest.cc169e61233cf7ac82be7750c52e4c76.js",
     "service-worker.js": "/TouristSpotGuideApp/service-worker.js",
     "static/css/2.69121389.chunk.css.map": "/TouristSpotGuideApp/static/css/2.69121389.chunk.css.map",
     "static/css/main.b3b290ac.chunk.css.map": "/TouristSpotGuideApp/static/css/main.b3b290ac.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.69121389.chunk.css",
     "static/js/2.e5ca82f6.chunk.js",
     "static/css/main.b3b290ac.chunk.css",
-    "static/js/main.30b431e1.chunk.js"
+    "static/js/main.7a34f1ef.chunk.js"
   ]
 }
